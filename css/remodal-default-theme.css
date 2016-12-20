@@ -48,7 +48,7 @@
 
 .remodal-wrapper {
   padding: 10px 10px 0;
-
+  width: 100%;
 }
 
 /* Default theme styles of the modal dialog */
@@ -63,7 +63,7 @@
   transform: translate3d(0, 0, 0);
 
   color: #2b2e38;
-  background: #fff;
+  background-color: silver;
 }
 
 .remodal.remodal-is-opening,
@@ -297,7 +297,7 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 1200px;
+    /*max-width: 1200px;*/
   }
 }
 
