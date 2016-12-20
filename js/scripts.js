@@ -1,6 +1,12 @@
 $(document).ready(function(){
-  $('.js-toggle').click( function() {
-    $('.slidedown').toggleClass('active');
+  $('.js-toggle-rust').click( function() {
+    $('.slidedown-rust').toggleClass('active');
+    $('.slidedown-etch').removeClass('active');
+
+  });
+  $('.js-toggle-etch').click( function() {
+    $('.slidedown-etch').toggleClass('active');
+    $('.slidedown-rust').removeClass('active');
   });
 
 });

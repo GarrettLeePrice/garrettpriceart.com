@@ -1,13 +1,13 @@
 .categories {
   width: 90%;
   height: auto;
-  margin: 10px auto 0 auto;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.slidedown {
+.slidedown-rust {
   display: none;
   -webkit-transform: scaleY(0);
        -o-transform: scaleY(0);
@@ -25,7 +25,33 @@
                   transition: transform 0.8s ease;
 }
 
-.slidedown.active {
+.slidedown-etch {
+  display: none;
+  -webkit-transform: scaleY(0);
+       -o-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+
+  -webkit-transform-origin: top;
+       -o-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
+
+  -webkit-transition: -webkit-transform 0.8s ease;
+            -o-transition: -o-transform 0.8s ease;
+          -ms-transition: -ms-transform 0.8s ease;
+                  transition: transform 0.8s ease;
+}
+
+.slidedown-rust.active {
+  display: block;
+  -webkit-transform: scaleY(1);
+       -o-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.slidedown-etch.active {
   display: block;
   -webkit-transform: scaleY(1);
        -o-transform: scaleY(1);
@@ -40,5 +66,12 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  background-color: silver;
+}
+
+.etchGalWrapper {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
