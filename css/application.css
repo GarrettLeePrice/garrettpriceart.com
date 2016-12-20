@@ -49,6 +49,9 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+#modal a {
+  display: inline-block; }
+
 .categories {
   width: 90%;
   height: auto;
@@ -95,25 +98,30 @@ table {
   transform: scaleY(1); }
 
 .slidedown-etch.active {
-  display: block;
+  display: flex;
+  justify-content: center;
   -webkit-transform: scaleY(1);
   -o-transform: scaleY(1);
   -ms-transform: scaleY(1);
   transform: scaleY(1); }
 
 .rustGalWrapper {
-  width: 50%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto; }
 
 .etchGalWrapper {
-  width: 50%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto; }
+  justify-content: center; }
+
+.galleriesWrap {
+  width: 100%;
+  background-color: black; }
 
 #rusted img {
   width: 300px;
@@ -135,10 +143,18 @@ table {
   height: 300px;
   margin-left: 10px; }
 
-.img {
+.imgModal {
   width: 50%;
   height: 50%;
   padding: 20px; }
+
+.img {
+  width: 60%; }
+
+.img1 {
+  width: 300px;
+  height: auto;
+  margin: 10px; }
 
 .mainImage {
   max-width: 100%;

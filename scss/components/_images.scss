@@ -8,7 +8,6 @@
   width: 300px;
   height: 300px;
   margin-left: 10px;
-  // margin-right: 30px;
 }
 
 #paper img{
@@ -23,11 +22,21 @@
   margin-left: 10px;
 
 }
-.img {
+.imgModal {
   width: 50%;
   height: 50%;
   padding: 20px;
 
+}
+
+ .img {
+  width: 60%;
+}
+
+.img1 {
+  width: 300px;
+  height: auto;
+  margin: 10px;
 }
 
 

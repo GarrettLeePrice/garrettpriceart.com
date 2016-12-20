@@ -1,3 +1,8 @@
+#modal a {
+  display: inline-block;
+
+}
+
 .categories {
   width: 90%;
   height: auto;
@@ -52,7 +57,8 @@
 }
 
 .slidedown-etch.active {
-  display: block;
+  display: flex;
+  justify-content: center;
   -webkit-transform: scaleY(1);
        -o-transform: scaleY(1);
       -ms-transform: scaleY(1);
@@ -61,7 +67,7 @@
 
 
 .rustGalWrapper {
-  width: 50%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -69,9 +75,14 @@
 }
 
 .etchGalWrapper {
-  width: 50%;
+  width: 90%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  justify-content: center;
+}
+
+.galleriesWrap {
+  width: 100%;
+  background-color: black;
 }
