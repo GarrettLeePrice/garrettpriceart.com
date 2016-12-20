@@ -1,24 +1,14 @@
 .categories {
   width: 90%;
   height: auto;
-  margin: 100px auto 0 auto;
+  margin: 10px auto 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-button {
-  margin: 5em 0 5em 0;
-  padding: 0.75em 1.1em 0.75em 1.1em;
-  font-weight: 400;
-  color: #444444;
-  background-color: #37C0FF;
-  border: none;
-  -webkit-border-radius: 3px 3px 3px 3px;
-  -moz-border-radius: 3px 3px 3px 3px;
-  border-radius: 3px 3px 3px 3px;
-}
 
 .slidedown {
+  display: none;
   -webkit-transform: scaleY(0);
        -o-transform: scaleY(0);
       -ms-transform: scaleY(0);
@@ -29,13 +19,14 @@ button {
       -ms-transform-origin: top;
           transform-origin: top;
 
-  -webkit-transition: -webkit-transform 0.2s ease;
-            -o-transition: -o-transform 0.2s ease;
-          -ms-transition: -ms-transform 0.2s ease;
-                  transition: transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.8s ease;
+            -o-transition: -o-transform 0.8s ease;
+          -ms-transition: -ms-transform 0.8s ease;
+                  transition: transform 0.8s ease;
 }
 
 .slidedown.active {
+  display: block;
   -webkit-transform: scaleY(1);
        -o-transform: scaleY(1);
       -ms-transform: scaleY(1);
@@ -45,8 +36,9 @@ button {
 
 .rustGalWrapper {
   width: 50%;
-  // height: auto;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  background-color: silver;
 }
