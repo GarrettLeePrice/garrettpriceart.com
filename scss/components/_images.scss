@@ -1,26 +1,31 @@
-#rusted {
+#rusted img {
   width: 300px;
   height: 300px;
+  margin-left: 10px;
 }
 
-#etched {
+#etched img {
   width: 300px;
   height: 300px;
+  margin-left: 10px;
+  // margin-right: 30px;
 }
 
-#paper {
+#paper img{
   width: 300px;
   height: 300px;
+  margin-left: 10px;
 }
 
-#photo {
+#photo img {
   width: 300px;
   height: 300px;
+  margin-left: 10px;
 
 }
 .img {
-  max-width: 1100px;
-  width:50%;
+  width: 50%;
+  height: 50%;
 }
 
 
