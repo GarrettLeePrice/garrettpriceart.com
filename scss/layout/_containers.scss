@@ -30,6 +30,15 @@
                   transition: transform 0.8s ease;
 }
 
+.slidedown-rust.active {
+  display: flex;
+  justify-content: center;
+  -webkit-transform: scaleY(1);
+       -o-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
 .slidedown-etch {
   display: none;
   -webkit-transform: scaleY(0);
@@ -48,15 +57,61 @@
                   transition: transform 0.8s ease;
 }
 
-.slidedown-rust.active {
-  display: block;
+.slidedown-etch.active {
+  display: flex;
+  justify-content: center;
   -webkit-transform: scaleY(1);
        -o-transform: scaleY(1);
       -ms-transform: scaleY(1);
           transform: scaleY(1);
 }
 
-.slidedown-etch.active {
+.slidedown-paper {
+  display: none;
+  -webkit-transform: scaleY(0);
+       -o-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+
+  -webkit-transform-origin: top;
+       -o-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
+
+  -webkit-transition: -webkit-transform 0.8s ease;
+            -o-transition: -o-transform 0.8s ease;
+          -ms-transition: -ms-transform 0.8s ease;
+                  transition: transform 0.8s ease;
+}
+
+.slidedown-paper.active {
+  display: flex;
+  justify-content: center;
+  -webkit-transform: scaleY(1);
+       -o-transform: scaleY(1);
+      -ms-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.slidedown-photo {
+  display: none;
+  -webkit-transform: scaleY(0);
+       -o-transform: scaleY(0);
+      -ms-transform: scaleY(0);
+          transform: scaleY(0);
+
+  -webkit-transform-origin: top;
+       -o-transform-origin: top;
+      -ms-transform-origin: top;
+          transform-origin: top;
+
+  -webkit-transition: -webkit-transform 0.8s ease;
+            -o-transition: -o-transform 0.8s ease;
+          -ms-transition: -ms-transform 0.8s ease;
+                  transition: transform 0.8s ease;
+}
+
+.slidedown-photo.active {
   display: flex;
   justify-content: center;
   -webkit-transform: scaleY(1);
@@ -71,10 +126,26 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .etchGalWrapper {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paperGalWrapper {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photoGalWrapper {
   width: 90%;
   height: auto;
   display: flex;
