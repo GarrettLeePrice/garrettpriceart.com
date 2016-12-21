@@ -1,8 +1,8 @@
 .categories {
   width: 90%;
   height: auto;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 50px auto;
+  // margin-top: 100px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -79,5 +79,10 @@
 
 .galleriesWrap {
   width: 100%;
+  background-color: black;
+}
+
+.footer {
+  height: 200px;
   background-color: black;
 }
