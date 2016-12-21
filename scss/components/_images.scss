@@ -37,6 +37,18 @@
   width: 300px;
   height: auto;
   margin: 10px;
+
+}
+
+.img1:hover {
+    -webkit-transition: all 0.2s 0s cubic-bezier(1, 1, 0.595, 0.835);
+    transition: all 0.2s 0s cubic-bezier(1, 1, 0.595, 0.835);
+  }
+
+.img1:hover:hover {
+  -webkit-transform: translateY(-1em) scale(1.1);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 
