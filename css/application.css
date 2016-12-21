@@ -49,9 +49,6 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-#modal a {
-  display: inline-block; }
-
 .categories {
   width: 90%;
   height: auto;
