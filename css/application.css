@@ -129,6 +129,12 @@ table {
   height: 200px;
   background-color: black; }
 
+.footer {
+  text-align: center;
+  color: white;
+  font-size: 20pt;
+  font-family: sans-serif; }
+
 header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
