@@ -79,16 +79,17 @@ table {
   height: 35px;
   margin-top: 10px;
   border-radius: 10px;
-  font-family: sans-serif;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif; }
   .CatText h1 {
     text-align: center;
     font-size: 22pt;
     letter-spacing: 6px;
     color: dimgrey;
-    font-weight: 500; }
+    font-weight: bold; }
   .CatText p {
-    text-align: center; }
+    text-align: center;
+    font-weight: 600; }
 
 .slidedown-rust {
   display: none; }
@@ -152,7 +153,7 @@ table {
   background-color: black; }
 
 .footer {
-  height: 200px;
+  height: 60px;
   background-color: black; }
 
 .footer {
@@ -160,6 +161,8 @@ table {
   color: white;
   font-size: 20pt;
   font-family: sans-serif; }
+  .footer img {
+    padding-top: 20px; }
 
 header.navigation {
   background-color: #333;
@@ -394,14 +397,15 @@ header.navigation {
   color: darkorange; }
 
 .mainImage h1 {
-  font-size: 50pt;
+  font-size: 35pt;
   color: silver;
   font-family: sans-serif;
   letter-spacing: 7pt; }
 
 #logo {
   align-self: center;
-  margin-left: 80px; }
+  margin-left: 300px;
+  margin-top: 50px; }
 
 .yellowLogo {
   color: orange; }
