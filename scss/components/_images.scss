@@ -23,9 +23,11 @@
 
 }
 .imgModal {
-  width: 50%;
-  height: 50%;
+  width: auto;
+  height: auto;
   padding: 20px;
+  max-width: 1000px;
+  max-height: 1000px;
 
 }
 
@@ -35,7 +37,8 @@
 
 .img1 {
   width: 300px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   margin: 10px;
 
 }

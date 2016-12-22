@@ -69,7 +69,8 @@ table {
 
 .slidedown-rust.active {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 100px; }
 
 .slidedown-etch {
   display: none; }
@@ -372,16 +373,19 @@ header.navigation {
   margin-left: 10px; }
 
 .imgModal {
-  width: 50%;
-  height: 50%;
-  padding: 20px; }
+  width: auto;
+  height: auto;
+  padding: 20px;
+  max-width: 1000px;
+  max-height: 1000px; }
 
 .img {
   width: 60%; }
 
 .img1 {
   width: 300px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   margin: 10px; }
 
 .img1:hover {
