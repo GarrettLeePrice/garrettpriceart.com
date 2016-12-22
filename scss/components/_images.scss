@@ -1,8 +1,53 @@
-#rusted img {
+ .rustCatImg {
+  background-image: url("../img/cat-rust.jpg");
+  background-repeat: no-repeat;
   width: 350px;
-  height: auto;
-  margin-left: 10px;
+  height: 264px;
+  // display: flex;
+  // justify-content: flex-end;
 }
+
+.etchCatImg {
+ background-image: url("../img/cat-etch.jpg");
+ background-repeat: no-repeat;
+ width: 350px;
+ height: 264px;
+ // display: flex;
+ // justify-content: flex-end;
+}
+
+.paperCatImg {
+ background-image: url("../img/cat-paper.jpg");
+ background-repeat: no-repeat;
+ width: 350px;
+ height: 264px;
+ // display: flex;
+ // justify-content: flex-end;
+}
+
+.photoCatImg {
+ background-image: url("../img/cat-photo2.jpg");
+ background-repeat: no-repeat;
+ // background-size: contain;
+ width: 350px;
+ height: 264px;
+ // display: flex;
+ // justify-content: flex-end;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+
+
+// #rusted img {
+//   width: 350px;
+//   height: auto;
+//   margin-left: 10px;
+// }
 
 #etched img {
   width: 350px;
@@ -63,4 +108,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 10px solid #333;
+  display: flex;
+  justify-content: flex-start;
 }

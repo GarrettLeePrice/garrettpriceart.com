@@ -1,12 +1,45 @@
 .categories {
-  width:100%;
+  width:90%;
   height: auto;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0 80px 0;
   display: flex;
   justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #f2f2f2;
+
+  // background-image: url("../img/bckGrnd3.jpg");
+  // background-size: cover;
+  // background-position: center;
+}
+
+.rustCatWrap {
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.etchCatWrap {
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.CatText {
+  width: 350px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+    h1 {
+      text-align: center;
+      font-size: 22pt;
+      letter-spacing: 6px;
+      color: dimgrey;
+      font-weight: 500;;
+    }
+    p {
+      text-align: center;
+    }
 }
 
 .slidedown-rust {

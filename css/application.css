@@ -57,14 +57,38 @@ table {
   box-sizing: border-box; }
 
 .categories {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
-  padding-top: 50px;
+  padding: 50px 0 80px 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  background-color: #f2f2f2; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.rustCatWrap {
+  margin-bottom: 30px;
+  height: 100%; }
+
+.etchCatWrap {
+  margin-bottom: 30px;
+  height: 100%; }
+
+.CatText {
+  width: 350px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  margin-bottom: 50px; }
+  .CatText h1 {
+    text-align: center;
+    font-size: 22pt;
+    letter-spacing: 6px;
+    color: dimgrey;
+    font-weight: 500; }
+  .CatText p {
+    text-align: center; }
 
 .slidedown-rust {
   display: none; }
@@ -147,7 +171,9 @@ header.navigation {
     position: relative;
     z-index: 9999;
     display: flex;
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    justify-content: space-around;
+    justify-content: flex-end; }
     header.navigation .navigation-wrapper::after {
       clear: both;
       content: "";
@@ -201,7 +227,9 @@ header.navigation {
     display: block;
     line-height: 60px;
     overflow: hidden;
-    padding-right: 0.8em;
+    padding-left: 2px;
+    padding-right: 2em;
+    margin-right: 20px;
     text-align: right;
     width: 100%;
     z-index: 9999; }
@@ -220,7 +248,7 @@ header.navigation {
         header.navigation ul li.nav-link a {
           padding-right: 1em; } }
       header.navigation ul li.nav-link a:focus, header.navigation ul li.nav-link a:hover {
-        color: white; }
+        color: orange; }
   header.navigation .active-nav-item a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     padding-bottom: 3px; }
@@ -362,10 +390,48 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
-#rusted img {
+.slash {
+  color: darkorange; }
+
+.mainImage h1 {
+  font-size: 50pt;
+  color: silver;
+  font-family: sans-serif;
+  letter-spacing: 7pt; }
+
+#logo {
+  align-self: center;
+  margin-left: 80px; }
+
+.yellowLogo {
+  color: orange; }
+
+.rustCatImg {
+  background-image: url("../img/cat-rust.jpg");
+  background-repeat: no-repeat;
   width: 350px;
-  height: auto;
-  margin-left: 10px; }
+  height: 264px; }
+
+.etchCatImg {
+  background-image: url("../img/cat-etch.jpg");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 264px; }
+
+.paperCatImg {
+  background-image: url("../img/cat-paper.jpg");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 264px; }
+
+.photoCatImg {
+  background-image: url("../img/cat-photo2.jpg");
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 264px; }
+
+a:link {
+  text-decoration: none; }
 
 #etched img {
   width: 350px;
@@ -413,6 +479,8 @@ header.navigation {
   background-image: url("../img/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 10px solid #333; }
+  border-bottom: 10px solid #333;
+  display: flex;
+  justify-content: flex-start; }
 
 /*# sourceMappingURL=application.css.map */

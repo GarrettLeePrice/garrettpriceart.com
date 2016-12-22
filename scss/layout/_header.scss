@@ -31,6 +31,8 @@ header.navigation {
     z-index: 9999;
     display: flex;
     font-family: sans-serif;
+    justify-content: space-around;
+    justify-content: flex-end;
 
   }
 
@@ -110,7 +112,9 @@ header.navigation {
     display: block;
     line-height: $navigation-height;
     overflow: hidden;
-    padding-right: 0.8em;
+    padding-left: 2px;
+    padding-right: 2em;
+    margin-right: 20px;
     text-align: right;
     width: 100%;
     z-index: 9999;
@@ -134,7 +138,7 @@ header.navigation {
 
       &:focus,
       &:hover {
-        color: $navigation-color-hover;
+        color: orange;
       }
     }
   }
