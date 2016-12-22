@@ -145,13 +145,15 @@ header.navigation {
   z-index: 999; }
   header.navigation .navigation-wrapper {
     position: relative;
-    z-index: 9999; }
+    z-index: 9999;
+    display: flex;
+    font-family: sans-serif; }
     header.navigation .navigation-wrapper::after {
       clear: both;
       content: "";
       display: block; }
   header.navigation .logo {
-    float: left;
+    align-self: center;
     max-height: 60px;
     padding-left: 1em;
     padding-right: 2em; }

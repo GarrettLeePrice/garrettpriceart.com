@@ -29,10 +29,13 @@ header.navigation {
     @include clearfix;
     position: relative;
     z-index: 9999;
+    display: flex;
+    font-family: sans-serif;
+
   }
 
   .logo {
-    float: left;
+    align-self: center;
     max-height: $navigation-height;
     padding-left: $navigation-padding;
     padding-right: 2em;
