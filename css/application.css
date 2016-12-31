@@ -404,7 +404,7 @@ header.navigation {
 
 #logo {
   align-self: center;
-  margin-left: 300px;
+  margin-left: 200px;
   margin-top: 50px; }
 
 .yellowLogo {
@@ -463,8 +463,8 @@ a:link {
   width: 60%; }
 
 .img1 {
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   margin: 10px; }
 
