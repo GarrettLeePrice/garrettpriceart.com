@@ -453,14 +453,9 @@ a:link {
   margin-left: 10px; }
 
 .imgModal {
-  width: auto;
-  height: auto;
-  padding: 20px;
-  max-width: 1000px;
-  max-height: 1000px; }
-
-.img {
-  width: 60%; }
+  max-width: 100%;
+  max-height: 100%;
+  padding: 20px; }
 
 .img1 {
   width: 150px;
