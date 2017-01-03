@@ -167,7 +167,7 @@ table {
 header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
-  min-height: 60px;
+  min-height: 30px;
   width: 100%;
   z-index: 999; }
   header.navigation .navigation-wrapper {
@@ -183,17 +183,17 @@ header.navigation {
       display: block; }
   header.navigation .logo {
     align-self: center;
-    max-height: 60px;
+    max-height: 30px;
     padding-left: 1em;
     padding-right: 2em; }
     header.navigation .logo img {
-      max-height: 60px;
+      max-height: 30px;
       padding: 0.8em 0; }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.7);
     display: block;
     float: right;
-    line-height: 60px;
+    line-height: 30px;
     margin: 0;
     padding-right: 1em;
     text-decoration: none;
@@ -205,7 +205,7 @@ header.navigation {
       color: white; }
   header.navigation nav {
     float: none;
-    min-height: 60px;
+    min-height: 30px;
     z-index: 9999999; }
     @media screen and (min-width: 53.75em) {
       header.navigation nav {
@@ -228,7 +228,7 @@ header.navigation {
   header.navigation ul li.nav-link {
     background: #333;
     display: block;
-    line-height: 60px;
+    line-height: 30px;
     overflow: hidden;
     padding-left: 2px;
     padding-right: 2em;
@@ -240,7 +240,7 @@ header.navigation {
       header.navigation ul li.nav-link {
         background: transparent;
         display: inline;
-        line-height: 60px;
+        line-height: 30px;
         text-decoration: none;
         width: auto; } }
     header.navigation ul li.nav-link a {
@@ -321,7 +321,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.submenu li {
-          line-height: 46.15385px; }
+          line-height: 23.07692px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -344,7 +344,7 @@ header.navigation {
     background: #505050;
     clear: both;
     display: block;
-    height: 60px; }
+    height: 30px; }
     @media screen and (min-width: 53.75em) {
       header.navigation .navigation-tools {
         background: transparent;
@@ -423,8 +423,10 @@ header.navigation {
   height: 264px; }
 
 .paperCatImg {
-  background-image: url("../img/cat-paper.jpg");
+  background-image: url("../img/p-UIcon.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 350px;
   height: 264px; }
 
@@ -475,7 +477,7 @@ a:link {
 .mainImage {
   background-position: right;
   max-width: 100%;
-  height: 100vh;
+  height: 85vh;
   background-image: url("../img/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
