@@ -24,6 +24,12 @@ $(document).ready(function(){
     $('.slidedown-etch').removeClass('active');
     $('.slidedown-paper').removeClass('active');
   });
+  $('.js-toggle-close').click( function() {
+    $('.slidedown-photo').removeClass('active');
+    $('.slidedown-rust').removeClass('active');
+    $('.slidedown-etch').removeClass('active');
+    $('.slidedown-paper').removeClass('active');
+  });
 });
 
 $(function() {
