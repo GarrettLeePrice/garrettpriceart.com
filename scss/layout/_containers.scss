@@ -121,3 +121,51 @@
   height: 60px;
   background-color: black;
 }
+
+// STORE PAGE STYLES
+
+
+.section1 {
+  background-color: silver;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.section1Images {
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sec1Thumb1 {
+  background-image: url("../img/Store-RREARTHIb.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  margin: 40px 10px 40px 40px;
+
+}
+
+#sec1Thumb2 {
+  background-image: url("../img/Store-RREARTHI.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 10px;
+}
+
+#sec1Thumb3 {
+  background-image: url("../img/Store-RREARTHIc.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 10px;
+
+
+}

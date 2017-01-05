@@ -156,6 +156,43 @@ table {
   height: 60px;
   background-color: black; }
 
+.section1 {
+  background-color: silver;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.section1Images {
+  width: 20%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+#sec1Thumb1 {
+  background-image: url("../img/Store-RREARTHIb.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  margin: 40px 10px 40px 40px; }
+
+#sec1Thumb2 {
+  background-image: url("../img/Store-RREARTHI.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 10px; }
+
+#sec1Thumb3 {
+  background-image: url("../img/Store-RREARTHIc.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin: 40px 40px 40px 10px; }
+
 .footer {
   text-align: center;
   color: white;
@@ -181,14 +218,6 @@ header.navigation {
       clear: both;
       content: "";
       display: block; }
-  header.navigation .logo {
-    align-self: center;
-    max-height: 30px;
-    padding-left: 1em;
-    padding-right: 2em; }
-    header.navigation .logo img {
-      max-height: 30px;
-      padding: 0.8em 0; }
   header.navigation .navigation-menu-button {
     color: rgba(255, 255, 255, 0.7);
     display: block;
@@ -410,6 +439,9 @@ header.navigation {
 .yellowLogo {
   color: orange; }
 
+.section1Text {
+  align-self: center; }
+
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");
   background-repeat: no-repeat;
@@ -482,8 +514,7 @@ a:link {
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 10px solid #333;
-  display: flex;
-  justify-content: flex-start; }
+  display: flex; }
   @media (max-width: 1080px) {
     .mainImage {
       height: 60vh;
