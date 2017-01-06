@@ -156,26 +156,24 @@ table {
   height: 60px;
   background-color: black; }
 
-.section1 {
+#section1 {
   background-color: silver;
   height: auto;
   width: 100%;
-  display: flex;
-  justify-content: center; }
+  padding: 50px; }
 
-.section1Images {
-  width: 20%;
-  height: auto;
+.sec1FlexWrapper {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap; }
 
 #sec1Thumb1 {
   background-image: url("../img/Store-RREARTHIb.jpg");
   background-position: left;
   background-size: cover;
-  width: 500px;
-  height: 500px;
-  margin: 40px 10px 40px 40px; }
+  width: 450px;
+  height: 450px;
+  margin-right: 25px; }
 
 #sec1Thumb2 {
   background-image: url("../img/Store-RREARTHI.jpg");
@@ -183,7 +181,8 @@ table {
   background-size: cover;
   width: 200px;
   height: 200px;
-  margin: 40px 40px 40px 10px; }
+  margin-bottom: 50px;
+  margin-left: 25px; }
 
 #sec1Thumb3 {
   background-image: url("../img/Store-RREARTHIc.jpg");
@@ -191,7 +190,12 @@ table {
   background-size: cover;
   width: 200px;
   height: 200px;
-  margin: 40px 40px 40px 10px; }
+  margin-top: 50px;
+  margin-left: 25px; }
+
+#section2 {
+  height: 300px;
+  background-color: #333; }
 
 .footer {
   text-align: center;
@@ -204,7 +208,7 @@ table {
 header.navigation {
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
-  min-height: 30px;
+  min-height: 40px;
   width: 100%;
   z-index: 999; }
   header.navigation .navigation-wrapper {
@@ -222,7 +226,7 @@ header.navigation {
     color: rgba(255, 255, 255, 0.7);
     display: block;
     float: right;
-    line-height: 30px;
+    line-height: 40px;
     margin: 0;
     padding-right: 1em;
     text-decoration: none;
@@ -234,7 +238,7 @@ header.navigation {
       color: white; }
   header.navigation nav {
     float: none;
-    min-height: 30px;
+    min-height: 40px;
     z-index: 9999999; }
     @media screen and (min-width: 53.75em) {
       header.navigation nav {
@@ -257,7 +261,7 @@ header.navigation {
   header.navigation ul li.nav-link {
     background: #333;
     display: block;
-    line-height: 30px;
+    line-height: 40px;
     overflow: hidden;
     padding-left: 2px;
     padding-right: 2em;
@@ -269,7 +273,7 @@ header.navigation {
       header.navigation ul li.nav-link {
         background: transparent;
         display: inline;
-        line-height: 30px;
+        line-height: 40px;
         text-decoration: none;
         width: auto; } }
     header.navigation ul li.nav-link a {
@@ -350,7 +354,7 @@ header.navigation {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         header.navigation ul.submenu li {
-          line-height: 23.07692px; }
+          line-height: 30.76923px; }
           header.navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -373,7 +377,7 @@ header.navigation {
     background: #505050;
     clear: both;
     display: block;
-    height: 30px; }
+    height: 40px; }
     @media screen and (min-width: 53.75em) {
       header.navigation .navigation-tools {
         background: transparent;
@@ -440,7 +444,7 @@ header.navigation {
   color: orange; }
 
 .section1Text {
-  align-self: center; }
+  text-align: center; }
 
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");
@@ -513,7 +517,6 @@ a:link {
   background-image: url("../img/main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: 10px solid #333;
   display: flex; }
   @media (max-width: 1080px) {
     .mainImage {
