@@ -157,7 +157,6 @@ table {
   background-color: black; }
 
 #section1 {
-  background-color: silver;
   height: auto;
   width: 100%;
   padding: 50px; }
@@ -426,6 +425,9 @@ header.navigation {
           box-sizing: border-box;
           display: block; } }
 
+#buyButton {
+  margin-top: 15px; }
+
 .slash {
   color: darkorange; }
 
@@ -443,22 +445,26 @@ header.navigation {
 .yellowLogo {
   color: orange; }
 
+#price {
+  color: black; }
+
 .section1Text {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  margin-left: 50px; }
   .section1Text h1 {
-    text-align: center;
     font-size: 22pt;
     letter-spacing: 6px;
-    color: dimgrey;
     font-weight: bold; }
   .section1Text p {
-    text-align: center;
-    font-weight: 600; }
+    font-weight: 600;
+    color: dimgrey; }
 
 hr {
   width: 200px;
   shadow: none;
-  color: black; }
+  color: black;
+  margin-left: 0; }
 
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");

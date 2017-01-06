@@ -23,18 +23,24 @@
 
 // STORE PAGE STYLES
 
+#price {
+  color: black;
+}
+
 .section1Text {
   font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  margin-left: 50px;
     h1 {
-        text-align: center;
+        // text-align: center;
         font-size: 22pt;
         letter-spacing: 6px;
-        color: dimgrey;
         font-weight: bold;
         }
     p {
-      text-align: center;
+      // text-align: center;
       font-weight: 600;
+      color: dimgrey;
     }
 }
 
@@ -42,4 +48,5 @@ hr {
   width: 200px;
   shadow: none;
   color: black;
+  margin-left: 0;
 }
