@@ -24,5 +24,22 @@
 // STORE PAGE STYLES
 
 .section1Text {
-  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+    h1 {
+        text-align: center;
+        font-size: 22pt;
+        letter-spacing: 6px;
+        color: dimgrey;
+        font-weight: bold;
+        }
+    p {
+      text-align: center;
+      font-weight: 600;
+    }
+}
+
+hr {
+  width: 200px;
+  shadow: none;
+  color: black;
 }

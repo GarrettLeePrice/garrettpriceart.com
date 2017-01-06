@@ -444,7 +444,21 @@ header.navigation {
   color: orange; }
 
 .section1Text {
-  text-align: center; }
+  font-family: 'Open Sans', sans-serif; }
+  .section1Text h1 {
+    text-align: center;
+    font-size: 22pt;
+    letter-spacing: 6px;
+    color: dimgrey;
+    font-weight: bold; }
+  .section1Text p {
+    text-align: center;
+    font-weight: 600; }
+
+hr {
+  width: 200px;
+  shadow: none;
+  color: black; }
 
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");
