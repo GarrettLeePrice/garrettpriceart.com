@@ -65,6 +65,9 @@ table {
   justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap; }
+  @media (max-width: 1556px) {
+    .categories {
+      width: 65%; } }
 
 .rustCatWrap {
   margin-bottom: 30px;
