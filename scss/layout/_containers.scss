@@ -1,3 +1,7 @@
+#artworksSection {
+  background-color: whitesmoke;
+}
+
 .categories {
   width:90%;
   height: auto;
@@ -10,6 +14,7 @@
   // background-image: url("../img/bckGrnd3.jpg");
   // background-size: cover;
   // background-position: center;
+  background-color: whitesmoke;
     @media (max-width: 1556px) {
       width:65%;
   }
@@ -127,7 +132,7 @@
 
 
 #section1 {
-  // background-color: silver;
+  background-color: whitesmoke;
   height: auto;
   width: 100%;
   padding: 50px;
@@ -217,4 +222,18 @@
 #section2 {
   height: 300px;
   background-color: #333;
+}
+
+// BIO PAGE STYLES
+
+#bioSection1 {
+  background-color: whitesmoke;
+}
+
+#bioWrapper {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: whitesmoke;
 }

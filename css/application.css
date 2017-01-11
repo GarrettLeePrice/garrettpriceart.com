@@ -56,6 +56,9 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+#artworksSection {
+  background-color: whitesmoke; }
+
 .categories {
   width: 90%;
   height: auto;
@@ -64,7 +67,8 @@ table {
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background-color: whitesmoke; }
   @media (max-width: 1556px) {
     .categories {
       width: 65%; } }
@@ -156,6 +160,7 @@ table {
   background-color: black; }
 
 #section1 {
+  background-color: whitesmoke;
   height: auto;
   width: 100%;
   padding: 50px; }
@@ -231,6 +236,16 @@ table {
 #section2 {
   height: 300px;
   background-color: #333; }
+
+#bioSection1 {
+  background-color: whitesmoke; }
+
+#bioWrapper {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: whitesmoke; }
 
 .footerArrow {
   height: 60px;
@@ -547,6 +562,11 @@ hr {
   shadow: none;
   color: black;
   margin-left: 0; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  line-height: 18pt; }
 
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");
