@@ -617,17 +617,17 @@ a:link {
   max-height: 100%;
   padding: 20px; }
 
-.img1 {
+.imgThumb {
   width: 150px;
   height: 150px;
   object-fit: cover;
   margin: 10px; }
 
-.img1:hover {
+.imgThumb:hover {
   -webkit-transition: all 0.2s 0s cubic-bezier(1, 1, 0.595, 0.835);
   transition: all 0.2s 0s cubic-bezier(1, 1, 0.595, 0.835); }
 
-.img1:hover:hover {
+.imgThumb:hover:hover {
   -webkit-transform: translateY(-1em) scale(1.1);
   -ms-transform: scale(1.05);
   transform: scale(1.05); }
