@@ -3,8 +3,6 @@
   background-repeat: no-repeat;
   width: 350px;
   height: 264px;
-  // display: flex;
-  // justify-content: flex-end;
 }
 
 .etchCatImg {
@@ -12,45 +10,27 @@
  background-repeat: no-repeat;
  width: 350px;
  height: 264px;
- // display: flex;
- // justify-content: flex-end;
 }
 
 .paperCatImg {
- background-image: url("../img/p-UIcon.jpg");
+ background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
  width: 350px;
  height: 264px;
-
- // display: flex;
- // justify-content: flex-end;
 }
 
 .photoCatImg {
  background-image: url("../img/cat-photo2.jpg");
  background-repeat: no-repeat;
- // background-size: contain;
  width: 350px;
  height: 264px;
- // display: flex;
- // justify-content: flex-end;
 }
 
 a:link {
   text-decoration: none;
 }
-
-
-
-
-
-// #rusted img {
-//   width: 350px;
-//   height: auto;
-//   margin-left: 10px;
-// }
 
 #etched img {
   width: 350px;
