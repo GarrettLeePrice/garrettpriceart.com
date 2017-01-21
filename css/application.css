@@ -240,12 +240,20 @@ table {
 #bioSection1 {
   background-color: whitesmoke; }
 
-#bioWrapper {
+#bioSection2 {
+  background-color: #333; }
+
+#bioWrapper1 {
   height: auto;
   width: 70%;
   margin: 0 auto;
-  padding: 30px;
-  background-color: whitesmoke; }
+  padding: 30px; }
+
+#bioWrapper2 {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px; }
 
 .footerArrow {
   height: 60px;
