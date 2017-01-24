@@ -243,6 +243,10 @@ table {
 #bioSection2 {
   background-color: #333; }
 
+#bioSection3 {
+  background-color: whitesmoke;
+  display: flex; }
+
 #bioWrapper1 {
   height: auto;
   width: 70%;
@@ -254,6 +258,12 @@ table {
   width: 70%;
   margin: 0 auto;
   padding: 30px; }
+
+#bioWrapper3 {
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center; }
 
 .footerArrow {
   height: 60px;

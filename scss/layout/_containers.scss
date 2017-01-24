@@ -234,6 +234,11 @@
   background-color: #333;
 }
 
+#bioSection3 {
+  background-color: whitesmoke;
+  display: flex;
+
+}
 
 #bioWrapper1 {
   height: auto;
@@ -247,4 +252,12 @@
   width: 70%;
   margin: 0 auto;
   padding: 30px;
+}
+
+#bioWrapper3 {
+  height: auto;
+  // width: 97%;
+  margin: 0 auto;
+  padding: 30px;
+  justify-content: center;
 }
