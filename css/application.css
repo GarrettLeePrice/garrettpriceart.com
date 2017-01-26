@@ -546,7 +546,9 @@ header.navigation {
 .slash {
   color: darkorange; }
 
-.mainImage h1 {
+.mainImage h1,
+.mainImage2 h1,
+.mainImage3 h1 {
   font-size: 35pt;
   color: silver;
   font-family: sans-serif;
@@ -660,6 +662,32 @@ a:link {
   display: flex; }
   @media (max-width: 1080px) {
     .mainImage {
+      height: 60vh;
+      background-position: right; } }
+
+.mainImage2 {
+  background-position: right;
+  max-width: 100%;
+  height: 85vh;
+  background-image: url("../img/main2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex; }
+  @media (max-width: 1080px) {
+    .mainImage2 {
+      height: 60vh;
+      background-position: right; } }
+
+.mainImage3 {
+  background-position: right;
+  max-width: 100%;
+  height: 85vh;
+  background-image: url("../img/main3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex; }
+  @media (max-width: 1080px) {
+    .mainImage3 {
       height: 60vh;
       background-position: right; } }
 
