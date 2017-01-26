@@ -245,7 +245,8 @@ table {
 
 #bioSection3 {
   background-color: whitesmoke;
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 #bioWrapper1 {
   height: auto;
@@ -260,10 +261,18 @@ table {
   padding: 30px; }
 
 #bioWrapper3 {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  overflow: hidden;
+  width: 50%;
   height: auto;
-  margin: 0 auto;
-  padding: 30px;
   justify-content: center; }
+
+#bioWrapper3 iframe {
+  position: absolute;
+  width: 100%;
+  height: 80%; }
 
 .footerArrow {
   height: 60px;
@@ -277,23 +286,29 @@ table {
 
 .footer {
   background: #333;
-  padding: 3em 1.618em;
+  padding: 1em 1.618em;
   width: 100%; }
   .footer .footer-logo {
     margin-bottom: 2em;
     text-align: center; }
     .footer .footer-logo img {
-      height: 3em; }
+      height: 8em; }
   .footer .footer-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 1.5em; }
+    margin-bottom: 0.5em; }
   .footer ul {
-    flex-basis: 13em;
+    flex-basis: 12em;
     flex-shrink: 0;
-    margin-bottom: 3em;
+    margin-bottom: 0.5em;
     padding: 0; }
+    @media (max-width: 630px) {
+      .footer ul {
+        flex-basis: 7em; } }
+    @media (max-width: 390px) {
+      .footer ul {
+        flex-basis: 3em; } }
   .footer li {
     line-height: 1.5em;
     list-style: none;
@@ -309,7 +324,7 @@ table {
     margin-bottom: 0.4em; }
   .footer hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    margin: 0 auto 1.5em;
+    margin: 0 auto 0.5em;
     width: 12em; }
   .footer p {
     color: rgba(255, 255, 255, 0.4);

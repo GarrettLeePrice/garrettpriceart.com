@@ -13,7 +13,7 @@
 
 
 .footer {
-  $base-spacing: 1.5em !default;
+  $base-spacing: .5em !default;
   $action-color: #477DCA !default;
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
@@ -31,7 +31,7 @@
     text-align: center;
 
     img {
-      height: 3em;
+      height: 8em;
     }
   }
 
@@ -43,11 +43,17 @@
   }
 
   ul {
-    flex-basis: 13em;
+    flex-basis: 12em;
     flex-shrink: 0;
-    margin-bottom: $base-spacing * 2;
+    margin-bottom: $base-spacing;
     padding: 0;
+      @media (max-width: 630px) {
+        flex-basis: 7em;
   }
+      @media (max-width: 390px) {
+        flex-basis: 3em;
+  }
+}
 
   li {
     line-height: 1.5em;

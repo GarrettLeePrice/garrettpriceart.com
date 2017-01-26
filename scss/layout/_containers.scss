@@ -237,6 +237,7 @@
 #bioSection3 {
   background-color: whitesmoke;
   display: flex;
+  justify-content: center;
 
 }
 
@@ -255,9 +256,21 @@
 }
 
 #bioWrapper3 {
-  height: auto;
-  // width: 97%;
-  margin: 0 auto;
-  padding: 30px;
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	overflow:hidden;
+  width:50%;
+	height: auto;
+
   justify-content: center;
+
+}
+
+#bioWrapper3 iframe {
+  position:absolute;
+	// top:0;
+	// left:0;
+	width:100%;
+	height:80%
 }
