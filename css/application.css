@@ -705,6 +705,10 @@ a:link {
     .mainImage3 {
       height: 60vh;
       background-position: right; } }
+  @media (max-width: 880px) {
+    .mainImage3 {
+      height: 60vh;
+      background-position: center; } }
 
 /*
  *  Remodal - v1.1.0

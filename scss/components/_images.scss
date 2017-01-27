@@ -143,4 +143,9 @@ a:link {
       background-position: right;
 
     }
+    @media (max-width: 880px) {
+      height: 60vh;
+      background-position: center;
+
+    }
 }
