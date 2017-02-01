@@ -32,6 +32,8 @@ $(document).ready(function(){
   });
 });
 
+// SMOOTH SCROLL //
+
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -45,6 +47,9 @@ $(function() {
       }
     }
   });
+
+// GALLERY SLIDEDOWN TOGGLE //
+
   var menuToggle = $("#js-mobile-menu").unbind();
   $("#js-navigation-menu").removeClass("show");
 
@@ -59,7 +64,7 @@ $(function() {
 });
 
 
-// REFILL MODAL
+// REFILL MODAL //
 
 $(function() {
   $("#modal-1").on("change", function() {

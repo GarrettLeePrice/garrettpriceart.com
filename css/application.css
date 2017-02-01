@@ -305,7 +305,8 @@ table {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    font-family: 'Open Sans', sans-serif; }
   .footer ul {
     flex-basis: 12em;
     flex-shrink: 0;
@@ -574,7 +575,7 @@ header.navigation {
 .mainImage3 h1 {
   font-size: 35pt;
   color: silver;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 7pt; }
 
 #logo {
