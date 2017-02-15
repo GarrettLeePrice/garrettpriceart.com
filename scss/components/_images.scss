@@ -1,12 +1,12 @@
  .rustCatImg {
-  background-image: url("../img/cat-rust.jpg");
+  background-image: url("../img/rust-catagory.jpg");
   background-repeat: no-repeat;
   width: 350px;
   height: 264px;
 }
 
 .etchCatImg {
- background-image: url("../img/cat-etch.jpg");
+ background-image: url("../img/etching-catagory.jpg");
  background-repeat: no-repeat;
  width: 350px;
  height: 264px;
@@ -22,11 +22,30 @@
 }
 
 .photoCatImg {
- background-image: url("../img/cat-photo2.jpg");
+ background-image: url("../img/photo-catagory.jpg");
  background-repeat: no-repeat;
  width: 350px;
  height: 264px;
 }
+
+.rustCatImg,
+.etchCatImg,
+.paperCatImg,
+.photoCatImg {
+  background-size: cover;
+  @media (max-width: 1556px) {
+    width: 530px;
+    height: 400px;
+
+  }
+  @media (max-width: 555px) {
+    width: 350px;
+    height: 264px;
+    margin: 0 auto;
+
+  }
+}
+
 
 a:link {
   text-decoration: none;

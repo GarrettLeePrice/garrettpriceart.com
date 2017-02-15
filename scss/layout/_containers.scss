@@ -16,7 +16,7 @@
   // background-position: center;
   background-color: whitesmoke;
     @media (max-width: 1556px) {
-      width:65%;
+      width:80%;
   }
 
 }
@@ -27,6 +27,11 @@
 }
 
 .etchCatWrap {
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.paperCatWrap {
   margin-bottom: 30px;
   height: 100%;
 }
@@ -49,6 +54,9 @@
       text-align: center;
       font-weight: 600;
     }
+      @media (max-width: 1556px) {
+        width:540px;
+      }
 }
 
 .slidedown-rust {

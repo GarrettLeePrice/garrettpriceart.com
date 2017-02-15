@@ -71,13 +71,17 @@ table {
   background-color: whitesmoke; }
   @media (max-width: 1556px) {
     .categories {
-      width: 65%; } }
+      width: 80%; } }
 
 .rustCatWrap {
   margin-bottom: 30px;
   height: 100%; }
 
 .etchCatWrap {
+  margin-bottom: 30px;
+  height: 100%; }
+
+.paperCatWrap {
   margin-bottom: 30px;
   height: 100%; }
 
@@ -97,6 +101,9 @@ table {
   .CatText p {
     text-align: center;
     font-weight: 600; }
+  @media (max-width: 1556px) {
+    .CatText {
+      width: 540px; } }
 
 .slidedown-rust {
   display: none; }
@@ -621,13 +628,13 @@ p {
   color: #fff; }
 
 .rustCatImg {
-  background-image: url("../img/cat-rust.jpg");
+  background-image: url("../img/rust-catagory.jpg");
   background-repeat: no-repeat;
   width: 350px;
   height: 264px; }
 
 .etchCatImg {
-  background-image: url("../img/cat-etch.jpg");
+  background-image: url("../img/etching-catagory.jpg");
   background-repeat: no-repeat;
   width: 350px;
   height: 264px; }
@@ -641,10 +648,31 @@ p {
   height: 264px; }
 
 .photoCatImg {
-  background-image: url("../img/cat-photo2.jpg");
+  background-image: url("../img/photo-catagory.jpg");
   background-repeat: no-repeat;
   width: 350px;
   height: 264px; }
+
+.rustCatImg,
+.etchCatImg,
+.paperCatImg,
+.photoCatImg {
+  background-size: cover; }
+  @media (max-width: 1556px) {
+    .rustCatImg,
+    .etchCatImg,
+    .paperCatImg,
+    .photoCatImg {
+      width: 530px;
+      height: 400px; } }
+  @media (max-width: 555px) {
+    .rustCatImg,
+    .etchCatImg,
+    .paperCatImg,
+    .photoCatImg {
+      width: 350px;
+      height: 264px;
+      margin: 0 auto; } }
 
 a:link {
   text-decoration: none; }
