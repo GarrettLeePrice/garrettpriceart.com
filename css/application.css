@@ -60,10 +60,9 @@ table {
   background-color: whitesmoke; }
 
 .categories {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 50px 0 80px 0;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -74,20 +73,18 @@ table {
       width: 80%; } }
 
 .rustCatWrap {
-  margin-bottom: 30px;
+  margin: 0 auto;
   height: 100%; }
 
-.etchCatWrap {
-  margin-bottom: 30px;
-  height: 100%; }
-
-.paperCatWrap {
-  margin-bottom: 30px;
-  height: 100%; }
+#rustBtnGroup {
+  position: absolute;
+  right: 40px;
+  bottom: 70px; }
 
 .CatText {
-  width: 350px;
-  height: 35px;
+  background-color: rgba(150, 150, 150, 0.55);
+  width: 300px;
+  height: 120px;
   margin-top: 10px;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -96,14 +93,13 @@ table {
     text-align: center;
     font-size: 22pt;
     letter-spacing: 6px;
-    color: dimgrey;
+    color: #333;
     font-weight: bold; }
   .CatText p {
     text-align: center;
     font-weight: 600; }
-  @media (max-width: 1556px) {
-    .CatText {
-      width: 540px; } }
+  .CatText button {
+    text-align: center; }
 
 .slidedown-rust {
   display: none; }
@@ -574,6 +570,16 @@ header.navigation {
 #buyButton {
   margin-top: 15px; }
 
+.galleryButton {
+  width: 100px;
+  height: 20px;
+  display: block;
+  margin: 0 auto; }
+
+a:link {
+  text-decoration: none;
+  color: inherit; }
+
 .slash {
   color: darkorange; }
 
@@ -628,69 +634,37 @@ p {
   color: #fff; }
 
 .rustCatImg {
-  background-image: url("../img/rust-catagory.jpg");
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 264px; }
-
-.etchCatImg {
-  background-image: url("../img/etching-catagory.jpg");
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 264px; }
-
-.paperCatImg {
-  background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../img/cat-rust.jpg");
+  width: 100vw;
+  height: 55vh;
   background-size: cover;
   background-position: center;
-  width: 350px;
-  height: 264px; }
+  position: relative; }
+
+.etchCatImg {
+  background-image: url("../img/cat-etch.jpg"); }
+
+.paperCatImg {
+  background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg"); }
 
 .photoCatImg {
-  background-image: url("../img/photo-catagory.jpg");
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 264px; }
+  background-image: url("../img/photo-catagory.jpg"); }
 
 .rustCatImg,
 .etchCatImg,
 .paperCatImg,
 .photoCatImg {
   background-size: cover; }
-  @media (max-width: 1556px) {
-    .rustCatImg,
-    .etchCatImg,
-    .paperCatImg,
-    .photoCatImg {
-      width: 530px;
-      height: 400px; } }
   @media (max-width: 555px) {
     .rustCatImg,
     .etchCatImg,
     .paperCatImg,
     .photoCatImg {
-      width: 350px;
-      height: 264px;
-      margin: 0 auto; } }
+      width: 150vw; } }
 
++ + +
 a:link {
   text-decoration: none; }
-
-#etched img {
-  width: 350px;
-  height: auto;
-  margin-left: 10px; }
-
-#paper img {
-  width: 350px;
-  height: auto;
-  margin-left: 10px; }
-
-#photo img {
-  width: 350px;
-  height: auto;
-  margin-left: 10px; }
 
 .imgModal {
   max-width: 100%;

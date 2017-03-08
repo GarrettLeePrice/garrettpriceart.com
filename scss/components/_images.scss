@@ -1,74 +1,113 @@
- .rustCatImg {
-  background-image: url("../img/rust-catagory.jpg");
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 264px;
+.rustCatImg {
+ background-image: url("../img/cat-rust.jpg");
+ width: 100vw;
+ height: 55vh;
+ background-size: cover;
+ background-position: center;
+ position: relative;
 }
 
 .etchCatImg {
- background-image: url("../img/etching-catagory.jpg");
- background-repeat: no-repeat;
- width: 350px;
- height: 264px;
+background-image: url("../img/cat-etch.jpg");
+
 }
 
 .paperCatImg {
- background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- width: 350px;
- height: 264px;
+background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
+
+
 }
 
 .photoCatImg {
- background-image: url("../img/photo-catagory.jpg");
- background-repeat: no-repeat;
- width: 350px;
- height: 264px;
+background-image: url("../img/photo-catagory.jpg");
+
 }
+
 
 .rustCatImg,
 .etchCatImg,
 .paperCatImg,
 .photoCatImg {
   background-size: cover;
-  @media (max-width: 1556px) {
-    width: 530px;
-    height: 400px;
 
-  }
   @media (max-width: 555px) {
-    width: 350px;
-    height: 264px;
-    margin: 0 auto;
-
+  width: 150vw;
   }
 }
+
++++
+
+//  .rustCatImg {
+//   background-image: url("../img/rust-catagory.jpg");
+//   background-repeat: no-repeat;
+//   width: 350px;
+//   height: 264px;
+// }
+//
+// .etchCatImg {
+//  background-image: url("../img/cat-etch.jpg");
+//  background-repeat: no-repeat;
+//  width: 350px;
+//  height: 264px;
+// }
+//
+// .paperCatImg {
+//  background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//  background-position: center;
+//  width: 350px;
+//  height: 264px;
+// }
+//
+// .photoCatImg {
+//  background-image: url("../img/photo-catagory.jpg");
+//  background-repeat: no-repeat;
+//  width: 350px;
+//  height: 264px;
+// }
+
+// .rustCatImg,
+// .etchCatImg,
+// .paperCatImg,
+// .photoCatImg {
+//   background-size: cover;
+//   @media (max-width: 1556px) {
+//     width: 530px;
+//     height: 400px;
+//
+//   }
+//   @media (max-width: 555px) {
+//     width: 350px;
+//     height: 264px;
+//     margin: 0 auto;
+//
+//   }
+// }
 
 
 a:link {
   text-decoration: none;
 }
 
-#etched img {
-  width: 350px;
-  height: auto;
-  margin-left: 10px;
-}
-
-#paper img{
-  width: 350px;
-  height: auto;
-  margin-left: 10px;
-}
-
-#photo img {
-  width: 350px;
-  height: auto;
-  margin-left: 10px;
-
-}
+// #etched img {
+//   width: 350px;
+//   height: auto;
+//   margin-left: 10px;
+// }
+//
+// #paper img{
+//   width: 350px;
+//   height: auto;
+//   margin-left: 10px;
+// }
+//
+// #photo img {
+//   width: 350px;
+//   height: auto;
+//   margin-left: 10px;
+//
+// }
 .imgModal {
   max-width: 100%;
   max-height: 100%;

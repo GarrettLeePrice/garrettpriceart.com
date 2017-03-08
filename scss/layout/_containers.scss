@@ -3,10 +3,9 @@
 }
 
 .categories {
-  width:90%;
+  width:100%;
   height: auto;
   margin: 0 auto;
-  padding: 50px 0 80px 0;
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -20,25 +19,32 @@
   }
 
 }
-
+//
 .rustCatWrap {
-  margin-bottom: 30px;
+  margin: 0 auto;
   height: 100%;
 }
+//
+// .etchCatWrap {
+//   margin-bottom: 30px;
+//   height: 100%;
+// }
+//
+// .paperCatWrap {
+//   margin-bottom: 30px;
+//   height: 100%;
+// }
 
-.etchCatWrap {
-  margin-bottom: 30px;
-  height: 100%;
-}
-
-.paperCatWrap {
-  margin-bottom: 30px;
-  height: 100%;
+#rustBtnGroup {
+  position: absolute;
+    right: 40px;
+    bottom: 70px;
 }
 
 .CatText {
-  width: 350px;
-  height: 35px;
+  background-color:rgba(150, 150, 150, 0.55);
+  width: 300px;
+  height: 120px;
   margin-top: 10px;
   border-radius: 10px;
   margin-bottom: 50px;
@@ -47,16 +53,17 @@
       text-align: center;
       font-size: 22pt;
       letter-spacing: 6px;
-      color: dimgrey;
+      color: #333;
       font-weight: bold;
     }
     p {
       text-align: center;
       font-weight: 600;
     }
-      @media (max-width: 1556px) {
-        width:540px;
-      }
+    button {
+      text-align: center;
+    }
+
 }
 
 .slidedown-rust {
