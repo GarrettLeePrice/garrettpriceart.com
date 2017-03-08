@@ -2,23 +2,23 @@
   background-color: whitesmoke;
 }
 
-.categories {
-  width:100%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  // background-image: url("../img/bckGrnd3.jpg");
-  // background-size: cover;
-  // background-position: center;
-  background-color: whitesmoke;
-    @media (max-width: 1556px) {
-      width:80%;
-  }
-
-}
+// .categories {
+//   width:100%;
+//   height: auto;
+//   margin: 0 auto;
+//   display: flex;
+//   justify-content: center;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+//   // background-image: url("../img/bckGrnd3.jpg");
+//   // background-size: cover;
+//   // background-position: center;
+//   background-color: whitesmoke;
+//     @media (max-width: 1556px) {
+//       width:80%;
+//   }
+//
+// }
 //
 .rustCatWrap {
   margin: 0 auto;
@@ -40,30 +40,22 @@
     right: 40px;
     bottom: 70px;
 }
+#etchBtnGroup {
+  position: absolute;
+    left: 40px;
+    bottom: 70px;
+}
 
-.CatText {
-  background-color:rgba(150, 150, 150, 0.55);
-  width: 300px;
-  height: 120px;
-  margin-top: 10px;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
-    h1 {
-      text-align: center;
-      font-size: 22pt;
-      letter-spacing: 6px;
-      color: #333;
-      font-weight: bold;
-    }
-    p {
-      text-align: center;
-      font-weight: 600;
-    }
-    button {
-      text-align: center;
-    }
+#paperBtnGroup {
+  position: absolute;
+    right: 40px;
+    bottom: 70px;
+}
 
+#photoBtnGroup {
+  position: absolute;
+    left: 40px;
+    bottom: 70px;
 }
 
 .slidedown-rust {

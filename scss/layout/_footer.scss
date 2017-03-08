@@ -1,6 +1,7 @@
 
 .footerArrow {
   height: 60px;
+  width:100%;
   background-color: black;
   text-align: center;
   color: white;
@@ -12,6 +13,7 @@
 }
 
 
+// BOURBON FOOTER //
 .footer {
   $base-spacing: .5em !default;
   $action-color: #477DCA !default;

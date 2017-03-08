@@ -28,6 +28,33 @@ a:link {
   color: orange;
 }
 
+.CatText {
+  background-color:rgba(150, 150, 150, 0.55);
+  width: 325px;
+  height: 150px;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+    h1 {
+      text-align: center;
+      font-size: 22pt;
+      letter-spacing: 2px;
+      color: darkorange;
+      font-weight: bold;
+    }
+    p {
+      text-align: center;
+      font-weight: 600;
+    }
+    button {
+      text-align: center;
+    }
+
+}
+
+
 // STORE PAGE STYLES
 
 #price {

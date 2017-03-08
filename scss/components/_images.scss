@@ -9,18 +9,30 @@
 
 .etchCatImg {
 background-image: url("../img/cat-etch.jpg");
+width: 100vw;
+height: 55vh;
+background-size: cover;
+background-position: center;
+position: relative;
 
 }
 
 .paperCatImg {
-background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg");
-
-
+  background-image: url("../img/cat-paper.jpg");
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .photoCatImg {
-background-image: url("../img/photo-catagory.jpg");
-
+  background-image: url("../img/cat-photo.jpg");
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 

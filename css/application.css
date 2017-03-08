@@ -59,19 +59,6 @@ table {
 #artworksSection {
   background-color: whitesmoke; }
 
-.categories {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: whitesmoke; }
-  @media (max-width: 1556px) {
-    .categories {
-      width: 80%; } }
-
 .rustCatWrap {
   margin: 0 auto;
   height: 100%; }
@@ -81,25 +68,20 @@ table {
   right: 40px;
   bottom: 70px; }
 
-.CatText {
-  background-color: rgba(150, 150, 150, 0.55);
-  width: 300px;
-  height: 120px;
-  margin-top: 10px;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  font-family: 'Open Sans', sans-serif; }
-  .CatText h1 {
-    text-align: center;
-    font-size: 22pt;
-    letter-spacing: 6px;
-    color: #333;
-    font-weight: bold; }
-  .CatText p {
-    text-align: center;
-    font-weight: 600; }
-  .CatText button {
-    text-align: center; }
+#etchBtnGroup {
+  position: absolute;
+  left: 40px;
+  bottom: 70px; }
+
+#paperBtnGroup {
+  position: absolute;
+  right: 40px;
+  bottom: 70px; }
+
+#photoBtnGroup {
+  position: absolute;
+  left: 40px;
+  bottom: 70px; }
 
 .slidedown-rust {
   display: none; }
@@ -287,6 +269,7 @@ table {
 
 .footerArrow {
   height: 60px;
+  width: 100%;
   background-color: black;
   text-align: center;
   color: white;
@@ -571,10 +554,11 @@ header.navigation {
   margin-top: 15px; }
 
 .galleryButton {
-  width: 100px;
+  width: 200px;
   height: 20px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 5px; }
 
 a:link {
   text-decoration: none;
@@ -598,6 +582,27 @@ a:link {
 
 .yellowLogo {
   color: orange; }
+
+.CatText {
+  background-color: rgba(150, 150, 150, 0.55);
+  width: 325px;
+  height: 150px;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif; }
+  .CatText h1 {
+    text-align: center;
+    font-size: 22pt;
+    letter-spacing: 2px;
+    color: darkorange;
+    font-weight: bold; }
+  .CatText p {
+    text-align: center;
+    font-weight: 600; }
+  .CatText button {
+    text-align: center; }
 
 #price {
   color: black; }
@@ -642,13 +647,28 @@ p {
   position: relative; }
 
 .etchCatImg {
-  background-image: url("../img/cat-etch.jpg"); }
+  background-image: url("../img/cat-etch.jpg");
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
 
 .paperCatImg {
-  background-image: url("../img/prints/Urban-Iconography-Garrett-Price-Prints.jpg"); }
+  background-image: url("../img/cat-paper.jpg");
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
 
 .photoCatImg {
-  background-image: url("../img/photo-catagory.jpg"); }
+  background-image: url("../img/cat-photo.jpg");
+  width: 100vw;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
 
 .rustCatImg,
 .etchCatImg,
