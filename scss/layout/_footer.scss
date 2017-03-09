@@ -24,16 +24,26 @@
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
-  background: #333;
+background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 7px 7px;
+
+  // background: #333;
   padding: ($base-spacing * 2) $gutter;
   width: 100%;
 
   .footer-logo {
-    margin-bottom: 2em;
+    margin-top: 1.5em;
     text-align: center;
 
     img {
-      height: 8em;
+      height: 4em;
     }
   }
 
@@ -76,7 +86,7 @@
 
   li h3 {
     color: $footer-color;
-    font-size: 1em;
+    font-size: 14pt;
     margin-bottom: 0.4em;
   }
 

@@ -232,13 +232,13 @@ table {
   background-color: #333; }
 
 #bioSection1 {
-  background-color: whitesmoke; }
+  background-color: silver; }
 
 #bioSection2 {
   background-color: #333; }
 
 #bioSection3 {
-  background-color: whitesmoke; }
+  background-color: silver; }
 
 #bioWrapper1 {
   height: auto;
@@ -288,14 +288,16 @@ table {
     padding-top: 20px; }
 
 .footer {
-  background: #333;
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 7px 7px;
   padding: 1em 1.618em;
   width: 100%; }
   .footer .footer-logo {
-    margin-bottom: 2em;
+    margin-top: 1.5em;
     text-align: center; }
     .footer .footer-logo img {
-      height: 8em; }
+      height: 4em; }
   .footer .footer-links {
     display: flex;
     flex-wrap: wrap;
@@ -324,7 +326,7 @@ table {
       color: white; }
   .footer li h3 {
     color: white;
-    font-size: 1em;
+    font-size: 14pt;
     margin-bottom: 0.4em; }
   .footer hr {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -339,8 +341,8 @@ table {
     text-align: center; }
 
 header.navigation {
-  background-color: #333;
-  border-bottom: 1px solid #1a1a1a;
+  background-color: #131313;
+  border-bottom: 1px solid black;
   min-height: 40px;
   width: 100%;
   z-index: 999; }
@@ -392,7 +394,7 @@ header.navigation {
         margin: 0;
         padding: 0; } }
   header.navigation ul li.nav-link {
-    background: #333;
+    background: #131313;
     display: block;
     line-height: 40px;
     overflow: hidden;
@@ -496,13 +498,13 @@ header.navigation {
             border-bottom-right-radius: 3px;
             padding-bottom: 0.7em; } }
       header.navigation ul.submenu li a {
-        background-color: #2b2b2b;
+        background-color: #0b0b0b;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
           header.navigation ul.submenu li a {
-            background-color: #333;
+            background-color: #131313;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -523,8 +525,8 @@ header.navigation {
     header.navigation .search-bar form {
       position: relative; }
       header.navigation .search-bar form input[type=search] {
-        background: #404040;
-        border: 1px solid #262626;
+        background: #202020;
+        border: 1px solid #060606;
         border-radius: 6px;
         box-sizing: border-box;
         color: rgba(255, 255, 255, 0.7);
@@ -537,7 +539,7 @@ header.navigation {
           header.navigation .search-bar form input[type=search] {
             width: 100%; } }
       header.navigation .search-bar form button[type=submit] {
-        background: #404040;
+        background: #202020;
         border: 0;
         bottom: 0.3em;
         left: auto;
