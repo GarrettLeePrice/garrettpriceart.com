@@ -58,6 +58,19 @@
     bottom: 70px;
 }
 
+#photoBtnGroup,
+#paperBtnGroup,
+#etchBtnGroup,
+#rustBtnGroup {
+  @media (max-width: 555px) {
+  position: static;
+  margin: 0 auto;
+  align-self: center;
+
+  }
+}
+
+
 .slidedown-rust {
   display: none;
 }

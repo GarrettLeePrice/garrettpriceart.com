@@ -83,6 +83,15 @@ table {
   left: 40px;
   bottom: 70px; }
 
+@media (max-width: 555px) {
+  #photoBtnGroup,
+  #paperBtnGroup,
+  #etchBtnGroup,
+  #rustBtnGroup {
+    position: static;
+    margin: 0 auto;
+    align-self: center; } }
+
 .slidedown-rust {
   display: none; }
 
@@ -584,12 +593,12 @@ a:link {
   color: orange; }
 
 .CatText {
-  background-color: rgba(150, 150, 150, 0.55);
+  background-color: rgba(0, 0, 0, 0.35);
   width: 325px;
   height: 175px;
   margin-top: 10px;
   padding-top: 20px;
-  border-radius: 10px;
+  border-radius: 3px;
   margin-bottom: 50px;
   font-family: 'Open Sans', sans-serif; }
   .CatText h1 {
@@ -600,7 +609,8 @@ a:link {
     font-weight: bold; }
   .CatText p {
     text-align: center;
-    font-weight: 600; }
+    font-weight: 600;
+    color: silver; }
   .CatText button {
     text-align: center; }
 
@@ -641,7 +651,7 @@ p {
 .rustCatImg {
   background-image: url("../img/cat-rust.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -649,7 +659,7 @@ p {
 .etchCatImg {
   background-image: url("../img/cat-etch.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -657,7 +667,7 @@ p {
 .paperCatImg {
   background-image: url("../img/cat-paper.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -665,7 +675,7 @@ p {
 .photoCatImg {
   background-image: url("../img/cat-photo.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -680,7 +690,8 @@ p {
     .etchCatImg,
     .paperCatImg,
     .photoCatImg {
-      width: 150vw; } }
+      width: 100vw;
+      display: flex; } }
 
 + + +
 a:link {

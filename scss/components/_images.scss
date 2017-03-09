@@ -1,7 +1,7 @@
 .rustCatImg {
  background-image: url("../img/cat-rust.jpg");
  width: 100vw;
- height: 55vh;
+ height: 70vh;
  background-size: cover;
  background-position: center;
  position: relative;
@@ -10,7 +10,7 @@
 .etchCatImg {
 background-image: url("../img/cat-etch.jpg");
 width: 100vw;
-height: 55vh;
+height: 70vh;
 background-size: cover;
 background-position: center;
 position: relative;
@@ -20,7 +20,7 @@ position: relative;
 .paperCatImg {
   background-image: url("../img/cat-paper.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -29,7 +29,7 @@ position: relative;
 .photoCatImg {
   background-image: url("../img/cat-photo.jpg");
   width: 100vw;
-  height: 55vh;
+  height: 70vh;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -43,7 +43,8 @@ position: relative;
   background-size: cover;
 
   @media (max-width: 555px) {
-  width: 150vw;
+  width: 100vw;
+  display: flex;
   }
 }
 
