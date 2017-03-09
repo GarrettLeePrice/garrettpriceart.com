@@ -644,14 +644,12 @@ a:link {
     .mainImage h1,
     .mainImage2 h1,
     .mainImage3 h1 {
-      width: 100%;
-      font-size: 25pt;
-      color: #333;
-      background-color: rgba(255, 255, 255, 0.35); } }
+      font-size: 18pt;
+      color: silver;
+      background-color: rgba(0, 0, 0, 0.75); } }
 
 #logo {
   align-self: center;
-  margin-left: 5%;
   margin-top: 50px; }
   @media (max-width: 700px) {
     #logo {
