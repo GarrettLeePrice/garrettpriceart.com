@@ -563,11 +563,68 @@ header.navigation {
   margin-top: 15px; }
 
 .galleryButton {
-  width: 200px;
+  width: 160px;
   height: 20px;
   display: block;
   margin: 0 auto;
   margin-top: 5px; }
+
+.button {
+  background-color: darkorange;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 2.5px 10px;
+  text-align: center;
+  text-decoration: none; }
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #ff8c00;
+    -webkit-box-shadow: 0 0 1px #ff8c00; }
+  50% {
+    background-color: #FFa333;
+    -webkit-box-shadow: 0 0 10px #FF0000; }
+  100% {
+    background-color: #ff8c00;
+    -webkit-box-shadow: 0 0 1px #ff8c00; } }
+@-moz-keyframes glowing {
+  0% {
+    background-color: #ff8c00;
+    -moz-box-shadow: 0 0 1px #ff8c00; }
+  50% {
+    background-color: #FFa333;
+    -moz-box-shadow: 0 0 10px #FFa333; }
+  100% {
+    background-color: #ff8c00;
+    -moz-box-shadow: 0 0 1px #ff8c00; } }
+@-o-keyframes glowing {
+  0% {
+    background-color: #ff8c00;
+    box-shadow: 0 0 1px #ff8c00; }
+  50% {
+    background-color: #FFa333;
+    box-shadow: 0 0 10px #FFa333; }
+  100% {
+    background-color: #ff8c00;
+    box-shadow: 0 0 1px #ff8c00; } }
+@keyframes glowing {
+  0% {
+    background-color: #ff8c00;
+    box-shadow: 0 0 3px #ff8c00; }
+  50% {
+    background-color: #FFa333;
+    box-shadow: 0 0 20px #FFa333; }
+  100% {
+    background-color: #ff8c00;
+    box-shadow: 0 0 3px #ff8c00; } }
+.button {
+  -webkit-animation: glowing 4000ms infinite;
+  -moz-animation: glowing 4000ms infinite;
+  -o-animation: glowing 4000ms infinite;
+  animation: glowing 4000ms infinite; }
 
 a:link {
   text-decoration: none;
@@ -583,17 +640,29 @@ a:link {
   color: silver;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 7pt; }
+  @media (max-width: 700px) {
+    .mainImage h1,
+    .mainImage2 h1,
+    .mainImage3 h1 {
+      width: 100%;
+      font-size: 25pt;
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.35); } }
 
 #logo {
   align-self: center;
   margin-left: 5%;
   margin-top: 50px; }
+  @media (max-width: 700px) {
+    #logo {
+      width: 100%;
+      margin-top: 0; } }
 
 .yellowLogo {
   color: orange; }
 
 .CatText {
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.45);
   width: 325px;
   height: 175px;
   margin-top: 10px;
@@ -605,7 +674,7 @@ a:link {
     text-align: center;
     font-size: 22pt;
     letter-spacing: 2px;
-    color: darkorange;
+    color: whitesmoke;
     font-weight: bold; }
   .CatText p {
     text-align: center;
@@ -691,6 +760,7 @@ p {
     .paperCatImg,
     .photoCatImg {
       width: 100vw;
+      height: 50vh;
       display: flex; } }
 
 + + +

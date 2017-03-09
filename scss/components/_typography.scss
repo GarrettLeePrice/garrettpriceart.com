@@ -15,13 +15,23 @@ a:link {
     color: silver;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 7pt;
+      @media (max-width: 700px) {
+        width:100%;
+        font-size: 25pt;
+        color: #333;
+        background-color:rgba(255, 255, 255, 0.35);
   }
+}
 }
 
 #logo {
   align-self: center;
   margin-left: 5%;
   margin-top: 50px;
+    @media (max-width: 700px) {
+      width: 100%;
+      margin-top: 0;
+}
 }
 
 .yellowLogo {
@@ -29,7 +39,7 @@ a:link {
 }
 
 .CatText {
-  background-color:rgba(0, 0, 0, 0.35);
+  background-color:rgba(0, 0, 0, 0.45);
   width: 325px;
   height: 175px;
   margin-top: 10px;
@@ -41,7 +51,7 @@ a:link {
       text-align: center;
       font-size: 22pt;
       letter-spacing: 2px;
-      color: darkorange;
+      color: whitesmoke;
       font-weight: bold;
     }
     p {
