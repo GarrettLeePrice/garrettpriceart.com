@@ -3,6 +3,9 @@
 
 #### By _Garrett Price_
 
+![Screenshot](screenshot.png)
+
+
 
 ## Description
 
@@ -19,6 +22,8 @@ For questions, concerns, or suggestions please email garrettleeprice@gmail.com
 
 * HTML5
 * CSSS (sass)
+* javascript
+* Bourbon/Neat
 
 ## Licensing
 

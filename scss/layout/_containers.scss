@@ -1,251 +1,172 @@
 #artworksSection {
-  background-color: whitesmoke;
+	background-color: whitesmoke;
 }
-
-// .categories {
-//   width:100%;
-//   height: auto;
-//   margin: 0 auto;
-//   display: flex;
-//   justify-content: center;
-//   justify-content: space-around;
-//   flex-wrap: wrap;
-//   // background-image: url("../img/bckGrnd3.jpg");
-//   // background-size: cover;
-//   // background-position: center;
-//   background-color: whitesmoke;
-//     @media (max-width: 1556px) {
-//       width:80%;
-//   }
-//
-// }
-//
 .rustCatWrap {
-  margin: 0 auto;
-  height: 100%;
+	margin: 0 auto;
+	height: 100%;
 }
-//
-// .etchCatWrap {
-//   margin-bottom: 30px;
-//   height: 100%;
-// }
-//
-// .paperCatWrap {
-//   margin-bottom: 30px;
-//   height: 100%;
-// }
-
 #rustBtnGroup {
-  position: absolute;
-    right: 40px;
-    bottom: 70px;
+	position: absolute;
+	right: 40px;
+	bottom: 70px;
 }
 #etchBtnGroup {
-  position: absolute;
-    left: 40px;
-    bottom: 70px;
+	position: absolute;
+	left: 40px;
+	bottom: 70px;
 }
-
 #paperBtnGroup {
-  position: absolute;
-    right: 40px;
-    bottom: 70px;
+	position: absolute;
+	right: 40px;
+	bottom: 70px;
 }
-
 #photoBtnGroup {
-  position: absolute;
-    left: 40px;
-    bottom: 70px;
+	position: absolute;
+	left: 40px;
+	bottom: 70px;
 }
-
 #photoBtnGroup,
 #paperBtnGroup,
 #etchBtnGroup,
 #rustBtnGroup {
-  @media (max-width: 555px) {
-  position: static;
-  margin: 0 auto;
-  align-self: center;
-
-  }
+	@media (max-width: 555px) {
+		position: static;
+		margin: 0 auto;
+		align-self: center;
+	}
 }
-
-
 .slidedown-rust {
-  display: none;
+	display: none;
 }
-
 .slidedown-rust.active {
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
 }
-
 .slidedown-etch {
-  display: none;
+	display: none;
 }
-
 .slidedown-etch.active {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-
 .slidedown-paper {
-  display: none;
+	display: none;
 }
-
 .slidedown-paper.active {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-
 .slidedown-photo {
-  display: none;
+	display: none;
 }
-
 .slidedown-photo.active {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-
-
 .rustGalWrapper {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
 .etchGalWrapper {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
 .paperGalWrapper {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
 .photoGalWrapper {
-  width: 90%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+	width: 90%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
 .galleriesWrap {
-  width: 100%;
-  background-color: black;
+	width: 100%;
+	background-color: black;
 }
-
-
-
 // STORE PAGE STYLES
-
-
 #section1 {
-  background-color: whitesmoke;
-  height: auto;
-  width: 100%;
-  padding: 50px;
-
+	background-color: whitesmoke;
+	height: auto;
+	width: 100%;
+	padding: 50px;
 }
-
 #section2 {
-  background-color: #333;
-  height: auto;
-  width: 100%;
-  padding: 50px;
-
+	background-color: dimgrey;
+	height: auto;
+	width: 100%;
+	padding: 50px;
 }
-
 .sec1FlexWrapper {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-    @media (max-width: 800px) {
-
-    }
-
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	@media (max-width: 800px) {}
 }
-
 .section1Details {
-    @media (max-width: 800px) {
-      display: flex;
-      flex-wrap: wrap;
-  }
-    @media (max-width: 551px) {
-      display: inline-block;
-  }
+	@media (max-width: 800px) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	@media (max-width: 551px) {
+		display: inline-block;
+	}
 }
-
-
-
-
 // BIO PAGE STYLES
-
 #bioSection1 {
-  background-color: silver;
+	background-color: silver;
 }
-
 #bioSection2 {
-  background-color: #333;
+	background-color: #333;
 }
-
 #bioSection3 {
-  background-color: silver;
+	background-color: silver;
 }
-
 #bioWrapper1 {
-  height: auto;
-  width: 70%;
-  margin: 0 auto;
-  padding: 30px;
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
 }
-
 #bioWrapper2 {
-  height: auto;
-  width: 70%;
-  margin: 0 auto;
-  padding: 30px;
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
 }
-
 #bioWrapper3 {
-  height: auto;
-  width: 70%;
-  margin: 0 auto;
-  padding: 30px;
+	height: auto;
+	width: 70%;
+	margin: 0 auto;
+	padding: 30px;
 }
-
 #videoWrapper1,
 #videoWrapper2,
-#videoWrapper3,
- {
-  position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	overflow:hidden;
-  width:100%;
+#videoWrapper3, {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	overflow: hidden;
+	width: 100%;
 	height: auto;
-  margin: 10px auto;
-
-
+	margin: 10px auto;
 }
-
 #videoWrapper1 iframe,
 #videoWrapper2 iframe,
 #videoWrapper3 iframe, {
-  position:absolute;
-	// top:0;
-	// left:0;
-	width:100%;
-	height:100%
+	position: absolute;
+	width: 100%;
+	height: 100%
 }
