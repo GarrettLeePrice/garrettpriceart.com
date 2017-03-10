@@ -94,6 +94,34 @@ hr {
   color: black;
   margin-left: 0;
 }
+.section2Text {
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  margin-left: 50px;
+    h1 {
+        // text-align: center;
+        font-size: 22pt;
+        letter-spacing: 6px;
+        font-weight: bold;
+        }
+    p {
+      // text-align: center;
+      font-weight: 600;
+      color: silver;
+    }
+}
+
+hr {
+  width: 200px;
+  shadow: none;
+  color: black;
+  margin-left: 0;
+}
+
+#price2 {
+  color: silver;
+}
+
 
 // BIO PAGE STYLES
 

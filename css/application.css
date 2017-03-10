@@ -159,6 +159,12 @@ table {
   width: 100%;
   padding: 50px; }
 
+#section2 {
+  background-color: #333;
+  height: auto;
+  width: 100%;
+  padding: 50px; }
+
 .sec1FlexWrapper {
   display: flex;
   justify-content: center;
@@ -171,65 +177,6 @@ table {
 @media (max-width: 551px) {
   .section1Details {
     display: inline-block; } }
-
-#sec1Thumb1 {
-  background-image: url("../img/Store-RREARTHIb.jpg");
-  background-position: left;
-  background-size: cover;
-  width: 450px;
-  height: 450px;
-  min-width: 325px;
-  margin-right: 25px; }
-  @media (max-width: 800px) {
-    #sec1Thumb1 {
-      margin: 0; } }
-  @media (max-width: 551px) {
-    #sec1Thumb1 {
-      width: 325px;
-      height: 325px; } }
-
-#sec1Thumb2 {
-  background-image: url("../img/Store-RREARTHI.jpg");
-  background-position: left;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  margin-bottom: 50px;
-  margin-left: 25px; }
-  @media (max-width: 800px) {
-    #sec1Thumb2 {
-      margin-top: 25px;
-      margin-right: 19px;
-      margin-left: 0; } }
-  @media (max-width: 551px) {
-    #sec1Thumb2 {
-      width: 325px;
-      height: 325px;
-      margin: 0;
-      margin-top: 15px; } }
-
-#sec1Thumb3 {
-  background-image: url("../img/Store-RREARTHIc.jpg");
-  background-position: left;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  margin-top: 50px;
-  margin-left: 25px; }
-  @media (max-width: 800px) {
-    #sec1Thumb3 {
-      margin-top: 25px;
-      margin-left: 19px; } }
-  @media (max-width: 551px) {
-    #sec1Thumb3 {
-      width: 325px;
-      height: 325px;
-      margin: 0;
-      margin-top: 15px; } }
-
-#section2 {
-  height: 300px;
-  background-color: #333; }
 
 #bioSection1 {
   background-color: silver; }
@@ -704,6 +651,27 @@ hr {
   color: black;
   margin-left: 0; }
 
+.section2Text {
+  font-family: 'Open Sans', sans-serif;
+  align-self: center;
+  margin-left: 50px; }
+  .section2Text h1 {
+    font-size: 22pt;
+    letter-spacing: 6px;
+    font-weight: bold; }
+  .section2Text p {
+    font-weight: 600;
+    color: silver; }
+
+hr {
+  width: 200px;
+  shadow: none;
+  color: black;
+  margin-left: 0; }
+
+#price2 {
+  color: silver; }
+
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 36pt;
@@ -812,6 +780,116 @@ a:link {
     .mainImage2 {
       height: 60vh;
       background-position: right; } }
+
+#sec1Thumb1 {
+  background-image: url("../img/Store-RREARTHIb.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 450px;
+  height: 450px;
+  min-width: 325px;
+  margin-right: 25px; }
+  @media (max-width: 800px) {
+    #sec1Thumb1 {
+      margin: 0; } }
+  @media (max-width: 551px) {
+    #sec1Thumb1 {
+      width: 325px;
+      height: 325px; } }
+
+#sec1Thumb2 {
+  background-image: url("../img/Store-RREARTHI.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-left: 25px; }
+  @media (max-width: 800px) {
+    #sec1Thumb2 {
+      margin-top: 25px;
+      margin-right: 19px;
+      margin-left: 0; } }
+  @media (max-width: 551px) {
+    #sec1Thumb2 {
+      width: 325px;
+      height: 325px;
+      margin: 0;
+      margin-top: 15px; } }
+
+#sec1Thumb3 {
+  background-image: url("../img/Store-RREARTHIc.jpg");
+  background-position: left;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 25px; }
+  @media (max-width: 800px) {
+    #sec1Thumb3 {
+      margin-top: 25px;
+      margin-left: 19px; } }
+  @media (max-width: 551px) {
+    #sec1Thumb3 {
+      width: 325px;
+      height: 325px;
+      margin: 0;
+      margin-top: 15px; } }
+
+#sec2Thumb1 {
+  background-image: url("../img/Store-BBRV.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 450px;
+  height: 450px;
+  min-width: 325px;
+  margin-right: 25px; }
+  @media (max-width: 800px) {
+    #sec2Thumb1 {
+      margin: 0; } }
+  @media (max-width: 551px) {
+    #sec2Thumb1 {
+      width: 325px;
+      height: 325px; } }
+
+#sec2Thumb2 {
+  background-image: url("../img/Store-BBRVb.jpg");
+  background-position: right;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-left: 25px; }
+  @media (max-width: 800px) {
+    #sec2Thumb2 {
+      margin-top: 25px;
+      margin-right: 19px;
+      margin-left: 0; } }
+  @media (max-width: 551px) {
+    #sec2Thumb2 {
+      width: 325px;
+      height: 325px;
+      margin: 0;
+      margin-top: 15px; } }
+
+#sec2Thumb3 {
+  background-image: url("../img/Store-BBRVc.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 25px; }
+  @media (max-width: 800px) {
+    #sec2Thumb3 {
+      margin-top: 25px;
+      margin-left: 19px; } }
+  @media (max-width: 551px) {
+    #sec2Thumb3 {
+      width: 325px;
+      height: 325px;
+      margin: 0;
+      margin-top: 15px; } }
 
 .mainImage3 {
   background-position: right;
