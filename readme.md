@@ -3,7 +3,7 @@
 
 #### By _Garrett Price_
 
-![Screenshot](img/Screen Shot.png)
+![Screenshot](ScreenShot.png)
 
 
 
